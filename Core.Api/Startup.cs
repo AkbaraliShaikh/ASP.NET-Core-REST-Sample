@@ -76,7 +76,6 @@ namespace Core.Api
             }
 
             app.UseMvc();
-
             app.UseSwagger();
             app.UseSwaggerUI(swagger =>
             {
